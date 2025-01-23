@@ -10,7 +10,7 @@ hero:
   #     text: 📝 문서화 참여하기
   #     link: https://github.com/g5-docs/docs/discussions/1
 features:
-  - title: 개요
+  - title: 개요1jk
     icon: 😀
     details: MSD 개요
     #link: /outline/install
