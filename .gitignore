@@ -1,0 +1,11 @@
+# 이미 존재하는 다른 패턴들
+src/.vitepress/cache
+src/.vitepress/dist
+/.DS_Store
+node_modules
+
+# docs 폴더 내부는 전부 무시
+docs/*
+
+# 단, .gitkeep은 예외 (트래킹)
+!docs/.gitkeep
