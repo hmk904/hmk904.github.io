@@ -13,26 +13,26 @@ features:
   - title: 개요
     icon: 😀
     details: MSD 개요
-    #link: /outline/install
+    link: /MSDOutline/outline
   - title: 아키텍처
     icon: 🖼️
     details: MSD 아키텍처
-    #link: /make/skin/about
+    link: /MSDArchitecture/architecture
   - title: 서버
     icon: 📡
     details: MSD 서버
-    #link: /make/theme/about
+    link: /MSDServer/crux
   - title: 생산관리 모니터링
     icon: 💻
     details: WPF로 구성된 모니터링 시스템
-    link: /monitoring/info
+    link: /MSDMonitoring/info
   - title: 품질 비전 AI
     icon: 🧩
     details: AI를 활요한 불량 품질 검사 프로그램
-    #link: /developers/make_plugin
+    link: /developers/make_plugin
   - title: PLC 생산관리
     icon: 🗜️
     details: PLC를 활용한 생산관리 프로그램
-    #link: /developers/make_plugin
+    link: /developers/make_plugin
 ---
 

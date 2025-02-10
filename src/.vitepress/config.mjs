@@ -44,7 +44,7 @@ export default deepmerge(mergeConfig, defineConfig({
         outline: [2, 4],
         sidebar: {
             
-            '/monitoring/': [
+            '/MSDMonitoring/': [
                 
                 {
                     text: '생산관리 모니터링',

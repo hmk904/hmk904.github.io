@@ -10,22 +10,22 @@
 <table>
   <tr>
     <td align="center">
-      <img src="image-url-1" width="150"><br>
+      <!-- <img src="image-url-1" width="150"><br> -->
       <strong>김카일</strong><br>
       <small>SERVER 개발 및 배포</small>
     </td>
     <td align="center">
-      <img src="image-url-2" width="150"><br>
+      <!-- <img src="image-url-2" width="150"><br> -->
       <strong>조현빈</strong><br>
       <small>AI 비전 HMI 개발</small>
     </td>
     <td align="center">
-      <img src="image-url-3" width="150"><br>
+      <!-- <img src="image-url-3" width="150"><br> -->
       <strong>한민기</strong><br>
       <small>생산계획 & 모니터링 개발</small>
     </td>
     <td align="center">
-      <img src="image-url-4" width="150"><br>
+      <!-- <img src="image-url-4" width="150"><br> -->
       <strong>신종덕</strong><br>
       <small>PLC HMI 개발</small>
     </td>
