@@ -20,11 +20,16 @@ head:
   allowfullscreen>
 </iframe>
 <br/>
-<video controls width="688" height="365">
-  <source src="./video/생산계획.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<iframe 
+width="688"
+  height="365"
+  src="https://www.youtube.com/embed/d9kP48OCEUM?si=2cyIOwNh2JCUGAmr" 
+  title="YouTube video player" 
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
 ## 2️⃣ 주요 화면 및 기능
 ![이미지 설명](/images/myimages.png)
