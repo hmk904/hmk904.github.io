@@ -49,16 +49,16 @@ export default deepmerge(mergeConfig, defineConfig({
                 {
                     text: '생산관리 모니터링',
                     items: [
-                        { text: '시스템 개요', link: '/monitoring/info' },
-                        { text: '생산 공정 모니터링', link: '/monitoring/process' },
-                        { text: '품질 검사 모니터링', link: '/monitoring/vision' },
-                        { text: '실시간 서버 상태', link: '/monitoring/server' }
+                        { text: '시스템 개요', link: '/MSDMonitoring/info' },
+                        { text: '생산 공정 모니터링', link: '/MSDMonitoring/process' },
+                        { text: '품질 검사 모니터링', link: '/MSDMonitoring/vision' },
+                        { text: '실시간 서버 상태', link: '/MSDMonitoring/server' }
                     ]
                 },
                 {
                     text: '품질비전 AI',
                     items: [
-                        { text: '시스템 개요', link: '/monitoring/info' },
+                        { text: '시스템 개요', link: '/MSDMonitoring/info' },
                         { text: 'VisionAI 기반 품질 검사', link: '/developers/polluted_variables' },
                         { text: '실시간 데이터 처리 및 통신', link: '/developers/file_security' }
                     ]
@@ -67,12 +67,12 @@ export default deepmerge(mergeConfig, defineConfig({
             ]
         },
         nav: [
-            { text: '개요', link: '/outline/install' },
+            { text: '개요', link: '/MSDOutline/outline' },
             { text: '아키텍처', link: '/make/skin/about' },
             { text: '서버', link: '/make/theme/about' },
             { text: '생산관리 모니터링', link: '/developers/lifecycle' },
-            { text: '품질비전AI', link: '/developers/lifecycle' },
-            { text: 'PLC생산관리', link: '/developers/lifecycle' },
+            { text: '품질비전AI', link: '/MSDMonitoring/lifecycle' },
+            { text: 'PLC생산관리', link: '/MSDMonitoring/lifecycle' },
         ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/g5guide/g5guide.github.io' },
