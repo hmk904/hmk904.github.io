@@ -26,20 +26,24 @@ export default {
 
         if (process.env.NODE_ENV === 'production') {
             watch(route, (path) => {
-                const el = document.querySelector('giscus-widget');
-                if (el) {
-                    el.update();
-                }
+                if (typeof document !== 'undefined') { // ✅ SSR 환경 체크 추가
+                    const el = document.querySelector('giscus-widget');
+                    if (el) {
+                        el.update();
+                    }
 
-                if (window.gtag) {
-                    gtag('send', 'pageview', path);
+                    if (typeof window !== 'undefined' && window.gtag) { // ✅ window.gtag도 체크
+                        gtag('send', 'pageview', path);
+                    }
                 }
             }, { immediate: true });
 
             watch(isDark, (dark) => {
-                const el = document.querySelector('giscus-widget');
-                if (el) {
-                    el.theme = dark ? 'transparent_dark' : 'light';
+                if (typeof document !== 'undefined') { // ✅ SSR 환경 체크 추가
+                    const el = document.querySelector('giscus-widget');
+                    if (el) {
+                        el.theme = dark ? 'transparent_dark' : 'light';
+                    }
                 }
             });
 
@@ -53,5 +57,3 @@ export default {
         });
     }
 }
-
-

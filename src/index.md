@@ -26,13 +26,6 @@ features:
     icon: 💻
     details: WPF로 구성된 모니터링 시스템
     link: /MSDMonitoring/info
-  - title: 품질 비전 AI
-    icon: 🧩
-    details: AI를 활요한 불량 품질 검사 프로그램
-    link: /developers/make_plugin
-  - title: PLC 생산관리
-    icon: 🗜️
-    details: PLC를 활용한 생산관리 프로그램
-    link: /developers/make_plugin
+ 
 ---
 
