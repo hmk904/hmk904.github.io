@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # ✅ 기본 제공 토큰 사용
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}  # ✅ Personal Token 사용
           external_repository: hmk904/hmk904.github.io
           publish_branch: main
           publish_dir: docs/.vitepress/dist  # ✅ 경로 수정
