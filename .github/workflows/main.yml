@@ -37,6 +37,6 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}  # ✅ Personal Token 사용
           external_repository: hmk904/hmk904.github.io
           publish_branch: main
-          publish_dir: docs/.vitepress/dist  # ✅ 경로 수정
+          publish_dir: src/.vitepress/dist  # ✅ 경로 수정
           destination_dir: docs
           keep_files: true
