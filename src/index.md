@@ -10,7 +10,7 @@ hero:
   #     text: 📝 문서화 참여하기
   #     link: https://github.com/g5-docs/docs/discussions/1
 features:
-  - title: 개요12321
+  - title: 개요
     icon: 😀
     details: MSD 개요
     link: /MSDOutline/outline
